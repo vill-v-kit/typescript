@@ -2,10 +2,12 @@
   "name": "@vill-v/ts",
   "version": "1.3.3",
   "description": "开发中总结的 typescript 扩展",
+  "packageManager": "pnpm@10.12.4",
   "files": [
     "dist"
   ],
   "license": "MIT",
+  "type": "module",
   "author": {
     "name": "whitekite",
     "email": "1075790909@qq.com"
@@ -24,6 +26,21 @@
     }
   },
   "scripts": {
-    "build": "pnpm dlx automd && tsup-node"
+    "build": "pnpm dlx automd && tsdown",
+    "release": "vbumpp -r && pnpm build",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:dev",
+    "@vill-v/bumpp-github": "catalog:dev",
+    "@vill-v/eslint-config": "catalog:dev",
+    "@vill-v/prettier-config": "catalog:dev",
+    "@vill-v/tsconfig": "catalog:dev",
+    "eslint": "catalog:dev",
+    "prettier": "catalog:dev",
+    "publint": "catalog:dev",
+    "tsdown": "catalog:dev",
+    "typescript": "catalog:dev",
+    "unplugin-unused": "catalog:dev"
   }
 }
