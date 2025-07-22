@@ -1,6 +1,6 @@
 {
   "name": "@vill-v/ts",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "开发中总结的 typescript 扩展",
   "packageManager": "pnpm@10.13.1",
   "files": [
