@@ -1,14 +1,15 @@
 catalogs:
   dev:
-    '@types/node': ^22.15.33
+    '@oxc-project/runtime': ^0.77.3
+    '@types/node': ^24.1.0
     '@vill-v/bumpp-github': ^4.0.0
-    '@vill-v/eslint-config': ^3.3.1
+    '@vill-v/eslint-config': ^3.3.2
     '@vill-v/prettier-config': ^1.0.0
     '@vill-v/tsconfig': ^1.0.1
-    eslint: ^9.29.0
+    eslint: ^9.31.0
     prettier: ^3.6.2
     publint: ^0.3.12
-    tsdown: ^0.12.9
+    tsdown: ^0.13.0
     typescript: ^5.8.3
     unplugin-unused: ^0.5.1
 

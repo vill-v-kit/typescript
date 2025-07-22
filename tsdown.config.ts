@@ -10,7 +10,6 @@ export default defineConfig({
   shims: true,
   publint: true,
   unused: true,
-  skipNodeModulesBundle: true,
+  platform:'neutral',
   exports: true,
-  silent: true,
 })

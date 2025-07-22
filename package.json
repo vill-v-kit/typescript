@@ -2,7 +2,7 @@
   "name": "@vill-v/ts",
   "version": "2.0.0",
   "description": "开发中总结的 typescript 扩展",
-  "packageManager": "pnpm@10.12.4",
+  "packageManager": "pnpm@10.13.1",
   "files": [
     "dist"
   ],
@@ -31,6 +31,7 @@
     "test": "vitest"
   },
   "devDependencies": {
+    "@oxc-project/runtime": "catalog:dev",
     "@types/node": "catalog:dev",
     "@vill-v/bumpp-github": "catalog:dev",
     "@vill-v/eslint-config": "catalog:dev",
